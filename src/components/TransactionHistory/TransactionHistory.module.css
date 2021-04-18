@@ -1,18 +1,19 @@
 .transactions {
-  width: 800px;
+  width: 700px;
   border-radius: 5px;
+  padding-bottom: 20px;
 }
 
 .transaction-history {
   width: 100%;
   border-collapse: collapse;
-  box-shadow: 1px 1px 5px 1px #d3d2d2;
+  box-shadow: 1px 1px 5px 1px rgb(8 8 8);
   color: grey;
   text-align: center;
 }
 
 .table-header {
-  background-color: #00bcd5;
+  background-color: #06cee9;
   color: white;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .transaction-history tbody tr:nth-child(even) {
-  background-color: #ecf1f4;
+  background-color: #ebeff1;
 }
 
 .transaction-history th:not(:last-child) {
@@ -29,5 +30,5 @@
 }
 
 .transaction-history td:not(:last-child) {
-  border-right: 1px solid #e8e8e8;
+  border-right: 1px solid #faf4f4;
 }

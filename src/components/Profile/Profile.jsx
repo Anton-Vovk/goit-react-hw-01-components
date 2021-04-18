@@ -2,7 +2,6 @@ import React from "react";
 import propTypes from "prop-types";
 import "./Profile.css";
 
-
 const Profile = ({ name, tag, location, avatar, followers, views, likes}) => (
     <div className="profile">
         <div className="description">
@@ -15,7 +14,6 @@ const Profile = ({ name, tag, location, avatar, followers, views, likes}) => (
             <p className="tag">@{tag}</p>
             <p className="location">{location}</p>
         </div>
-
         <ul className="stats">
             <li>
                 <span className="label">Followers</span>
@@ -32,6 +30,10 @@ const Profile = ({ name, tag, location, avatar, followers, views, likes}) => (
         </ul>
     </div>
 );
+
+Profile.defaultProps = {
+    avatar: 'https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png',
+};
 
 Profile.propTypes = {
   name: propTypes.string.isRequired,

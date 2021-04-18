@@ -14,19 +14,13 @@ const Statistics = ({ title, stats }) => {
           item =>
             <li key={item.id} className={styles.item} style={{ backgroundColor: generateColor() }}>
               <span className={styles.label}>{item.label}</span>
-              <span className={styles.percentage}>{item.percentage + ' %'}</span>
+              <span className={styles.percentage}>{item.percentage + '%'}</span>
             </li>
-            
         )}
-
       </ul>
     </section>
   )
 };
-
-Statistics.defaultProps = {
-  title: null,
-}
 
 Statistics.propTypes = {
   title: PropTypes.string,

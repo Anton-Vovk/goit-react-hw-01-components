@@ -1,5 +1,10 @@
 .friend-list {
   list-style: none;
+  padding: 0;
+}
+.avatar {
+  border-radius: 30%;
+  width: 80px;
 }
 
 .item {
@@ -10,7 +15,7 @@
   font-size: 26px;
   font-weight: bold;
   color: black;
-  box-shadow: 1px 1px 5px 1px #d3d2d2;
+  box-shadow: 1px 1px 5px 1px rgb(8, 8, 8);
 }
 
 .item:not(:last-child) {

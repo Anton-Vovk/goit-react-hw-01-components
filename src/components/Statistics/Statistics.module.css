@@ -1,6 +1,6 @@
 .statistics {
-  box-shadow: 1px 1px 5px 1px #d3d2d2;
-  padding-top: 30px;
+  box-shadow: 1px 1px 5px 1px rgb(8, 8, 8);
+  padding-top: 10px;
 }
 
 .title {
@@ -9,12 +9,13 @@
   text-transform: uppercase;
   padding: 0 15px;
   margin-bottom: 30px;
-  color: var(--grey-text-color);
+  color: grey;
 }
 
 .statList {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .item {
@@ -32,5 +33,5 @@
 }
 
 .percentage {
-  font-size: 1.2em;
+  font-size: 15px;
 }
